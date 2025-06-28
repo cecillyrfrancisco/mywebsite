@@ -241,3 +241,209 @@ nav a img:hover {
     margin: 0 auto;
   }
 }
+
+/*my experience */
+.experience-container {
+  display: flex;
+  flex-direction: row;
+  padding: 60px;
+  align-items: flex-start;
+  background-color: #fff;
+  gap: 40px;
+}
+
+.experience-image {
+  flex: 1;
+  max-width: 600px;
+}
+
+.experience-image img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+.experience-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.experience-text h1 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.experience-text h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.experience-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.experience-text a {
+  color: #e94e3c;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.experience-text a:hover {
+  text-decoration: underline;
+}
+
+/* Adaptación para móviles */
+@media (max-width: 768px) {
+  .experience-container {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .experience-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .experience-text {
+    text-align: left;
+  }
+
+  .experience-text h1 {
+    font-size: 32px;
+  }
+
+  .experience-text h2 {
+    font-size: 18px;
+  }
+
+  .experience-text p {
+    font-size: 15px;
+  }
+}
+/* Volunteer section */
+.volunteer-section {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  padding: 60px;
+  background-color: #fff;
+}
+
+.volunteer-image {
+  flex: 1;
+  max-width: 500px;
+}
+
+.volunteer-image img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.volunteer-text {
+  flex: 1;
+  padding: 20px;
+  background-color: #f47a5b; 
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.volunteer-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.volunteer-text p {
+  margin-bottom: 15px;
+}
+
+/* Adaptación para móviles */
+@media (max-width: 768px) {
+  .volunteer-section {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .volunteer-image,
+  .volunteer-text {
+    max-width: 100%;
+  }
+
+  .volunteer-text {
+    padding: 20px;
+    text-align: left;
+  }
+}
+/* Starbucks */
+.barista-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 60px;
+  gap: 40px;
+  background-color: #fff;
+}
+
+.barista-text {
+  flex: 1;
+}
+
+.barista-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.barista-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.barista-text .highlight {
+  color: #e94e3c;
+  font-weight: 500;
+}
+
+.barista-image {
+  flex: 1;
+  max-width: 450px;
+}
+
+.barista-image img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Adaptación para móviles */
+@media (max-width: 768px) {
+  .barista-container {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .barista-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .barista-text {
+    text-align: left;
+  }
+}
