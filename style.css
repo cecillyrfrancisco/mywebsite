@@ -16,6 +16,14 @@ body {
   width: 100%;
   height: 100vh;
   object-fit: cover;
+  max-width: 500px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.image-section img{
+  flex: 1;
+  padding-right: 40px;
 }
 
 .text-section {
@@ -67,7 +75,7 @@ nav a img:hover {
   transform: translateY(-3px) scale(1.15);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
-
+/* Welcome section */
 .welcome-container {
   display: flex;
   flex-direction: row;
@@ -126,3 +134,68 @@ nav a img:hover {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
+/* Youtube video seccion */
+.video-feature {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.custom-thumbnail {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.custom-thumbnail:hover {
+  transform: scale(1.02);
+}
+
+/* My education */
+.experience-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  gap: 40px;
+}
+
+.experience-text {
+  flex: 1 1 50%;
+  max-width: 600px;
+  padding-right: 60px;
+}
+
+.experience-text h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.experience-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.experience-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  padding-right: 10px;
+}
+
+.experience-image {
+  flex: 1;
+  max-width: 500px;
+}
+
+.experience-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
