@@ -199,3 +199,45 @@ nav a img:hover {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
+
+/* Adaptación para móviles */
+@media (max-width: 768px) {
+  .welcome-container,
+  .education-container,
+  .experience-section {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .welcome-image,
+  .education-image,
+  .experience-image {
+    padding-right: 0;
+    margin-bottom: 30px;
+    max-width: 100%;
+  }
+
+  .welcome-text,
+  .education-text,
+  .experience-text {
+    padding-right: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .welcome-text h1,
+  .education-text h1,
+  .experience-text h2 {
+    font-size: 32px;
+  }
+
+  .welcome-text p,
+  .education-text p,
+  .experience-text p {
+    font-size: 16px;
+  }
+
+  .btn-resume {
+    margin: 0 auto;
+  }
+}
